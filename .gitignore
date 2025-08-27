@@ -1,0 +1,56 @@
+# Arquivos compilados
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Configurações de ambiente virtual
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Configurações locais e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de log e cache
+*.log
+*.pot
+*.pyc
+*.sqlite3
+
+# Distribuição / pacotes
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Configurações de testes
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+htmlcov/
+.coverage.*
+.cache
+
+# Outros
+.DS_Store
+Thumbs.db
