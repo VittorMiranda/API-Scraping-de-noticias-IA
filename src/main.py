@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from scraper import coletar_noticias
 
-app = FastAPI()  # <- a variável precisa ser exatamente "app"
+app = FastAPI()  
 
 @app.get("/")
 def root():
